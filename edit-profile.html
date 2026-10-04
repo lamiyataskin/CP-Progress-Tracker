@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Edit Profile - CP Progress Tracker</title>
+
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+
+                <i class="fa-solid fa-code"></i>
+                <h2>CP Tracker</h2>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contests.html">Contests</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="settings.html">Settings</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="edit-profile-page">
+        <div class="edit-profile-card">
+            <div class="edit-title">
+                <div class="edit-icon">
+                    <i class="fa-solid fa-user-pen">
+
+                    </i>
+
+                </div>
+                <div>
+                    <h1>Edit Profile</h1>
+                    <p>
+                        Update your profile information
+                    </p>
+                </div>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+
+                    <input type="text" id="name" value="Cp Progress Tracker" required>
+
+                </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text"id="username" value="cp_tracker"required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email"id="email" value="cptracker@gmail.com"required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="university">University</label>
+                    <input type="text"id="university" value="Sylhet International University"required>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label><input type="checkbox" name="language" value="C"> C</label>
+                    <label><input type="checkbox" name="language" value="C++"> C++</label>
+                    <label><input type="checkbox" name="language" value="Python"> Python</label>
+                    <label><input type="checkbox" name="language" value="Java"> Java</label>
+                    <label><input type="checkbox" name="language" value="JavaScript"> JavaScript</label>
+                    <label><input type="checkbox" name="language" value="Perl"> Perl</label>
+                    <label><input type="checkbox" name="language" value="C#"> C#</label>
+                    <label><input type="checkbox" name="language" value="Kotlin"> Kotlin</label>
+
+
+
+                </div>
+                <div class="form-group">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" rows="4">
+                        Competitive Programmer
+
+                    </textarea>
+
+                </div>
+
+                <div class="button-group">
+                   
+                    <a href="profile.html" class="save-button">Cancel</a>
+
+                    <button type="submit" class="save-button">
+                        <i class="fa-solid fa-check">
+
+                        </i>
+
+                        Save Changes
+
+                    </button>
+
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>
+            © 2026 CP Progress Tracker. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+</html>

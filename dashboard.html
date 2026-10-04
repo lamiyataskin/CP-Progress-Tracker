@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Dashboard - CP Progress Tracker</title>
+
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>CP Tracker</h2>
+
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="contests.html">Contests</a></li>
+                    <li><a href="notifications.html">Notifications</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <main class="dashboard-page">
+            <div class="dashboard-header">
+                <div>
+                    <h1>
+                        Dashboard
+                    </h1>
+                    <p>
+                        Welcome back! Track your competitive programming progress.
+                    </p>
+
+                </div>
+                <a href="profile.html" class="profile-button">
+                    <i class="fa-solid fa-user">
+
+                    </i>
+                    My Profile
+                </a>
+
+                
+            </div>
+            <section class="stats">
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <i class="fa-solid fa-code">
+
+                        </i>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Problems Solved
+                        </h3>
+                        <h2>1000</h2>
+                        <p>
+                            Total solved problems
+                        </p>
+                    </div>
+                </div>
+                
+                    
+
+                <div class="stat-card">
+                    <div class="stat-icon green">
+                        <i class="fa-solid fa-fire">
+
+                        </i>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Current Streak
+                        </h3>
+                        <h2>101 Days</h2>
+                        <p>
+                            Keep coding daily
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fa-solid fa-trophy">
+
+                        </i>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Contests
+                        </h3>
+                        <h2>30</h2>
+                        <p>
+                            Participated contests
+                        </p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon purple">
+                        <i class="fa-solid fa-chart-line">
+
+                        </i>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Rating
+                        </h3>
+                        <h2>1100</h2>
+                        <p>
+                            Max Rating
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="dashboard-card">
+                <div class="card-title">
+                    <div>
+                        <h2>
+                            Platform Progress
+                        </h2>
+                        <p>
+                            Your coding progress across different platforms.
+                        </p>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-info">
+                        <span>Codeforces</span>
+                        <strong>122 Problems</strong>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill cc">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-info">
+                        <span>CodeChef</span>
+                        <strong>12 Problems</strong>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill ccc">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-info">
+                        <span>AtCoder</span>
+                        <strong>122 Problems</strong>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill ac">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-info">
+                        <span>Beecrowd</span>
+                        <strong>122 Problems</strong>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill bc">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="activity-card">
+                <div class="activity-header">
+                    <div>
+                        <h2>
+                            Yearly Activity
+                        </h2>
+                        <p>
+                            Your coding activity over the past year.
+                        </p>
+
+                    </div>
+                    <span>
+                        365 days
+                    </span>
+                </div>
+
+                <div class="activity-wrapper">
+                    <div class="day-labels">
+                        <span>Mon</span>
+                        <span>Wed</span>
+                        <span>Fri</span>
+
+                    </div>
+
+                </div>
+                <div class="activity-content">
+                    <div class="activity-months">
+                        <span>Jan</span>
+                        <span>Feb</span>
+                        <span>Mar</span>
+                        <span>Apr</span>
+                        <span>May</span>
+                        <span>Jun</span>
+                        <span>Jul</span>
+                        <span>Aug</span>
+                        <span>Sep</span>
+                        <span>Oct</span>
+                        <span>Nov</span>
+                        <span>Dec</span>
+                    </div>
+
+                    <div class="activity-grid" id="activity-grid">
+
+                    </div>
+
+
+                </div>
+                <div class="activity-button">
+                    <span>Less
+
+                    </span>
+                    <div class="legend level0">
+
+                    </div>
+                    <div class="legend level1">
+                        
+                    </div>
+                    <div class="legend level2">
+                        
+                    </div>
+                    <div class="legend level3">
+                        
+                    </div>
+                    <div class="legend level4">
+                        
+                    </div>
+                    <span>More
+
+                    </span>
+                </div>
+
+            </section>
+
+            <section class="dashboard-card">
+                <div class="card-title">
+                    <div>
+                        <h2>Upcoming Contests</h2>
+                        <p>
+                            Don't miss your next competition.
+                        </p>
+                        <a href="contests.html">View All</a>
+          
+
+                    </div>
+                </div>
+
+                <div class="contest-row">
+                    <div class="contest-left">
+                        <div class="contest-icon">
+                            <i class="fa-solid fa-c">
+
+                            </i>
+
+                        </div>
+                        <h3>Codeforces Round 1118 (Div. 2)</h3>
+                        <p>
+                            <i class="fa-regular fa-calendar">
+
+                            </i>
+                            29 August 2026
+                        </p>
+                    </div>
+                    <span class="contest-time">
+                        8:35 PM
+                    </span>
+
+                </div>
+
+                <div class="contest-row">
+                    <div class="contest-left">
+                        <div class="contest-icon red">
+                            <i class="fa-solid fa-a">
+
+                            </i>
+
+                        </div>
+                        <h3>AtCoder Beginner Contest 473</h3>
+                        <p>
+                            <i class="fa-regular fa-calender">
+
+                            </i>
+                            29 August 2026
+                        </p>
+                    </div>
+                    <span class="contest-time">
+                        6:00 PM
+                    </span>
+
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+        <p>
+            © 2026 CP Progress Tracker. All Rights Reserved.
+        </p>
+    </footer>
+    </body>
+</html>
