@@ -1,0 +1,144 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+
+}
+
+body
+{
+    min-height:100vh;
+    background-image:url("../images/pp.jfif");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+
+
+}
+
+.register-page
+{
+    width:100%;
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 0;
+    
+}
+
+.register-card
+{
+    width:420px;
+    background: transparent;
+    border:2px solid rgba(255, 254, 255, 0.2);
+    backdrop-filter:blur(80px);
+    color:#fff;
+    border-radius:15px;
+    padding:30px 40px;
+}
+.register-icon
+{
+    font-size:40px;
+    text-align:center;
+    margin-bottom:10px;
+
+}
+
+.register-card h1
+{
+    font-size:32px;
+    text-align:center;
+}
+
+.register-card > p
+{
+    text-align:center;
+    margin:10px 0 25px;
+
+}
+
+.register-card form label
+{
+    display:block;
+    margin-bottom:7px;
+
+}
+
+.register-card form input
+{
+    width:100%;
+    height:50px;
+    background:transparent;
+   
+    border:2px solid rgba(255, 255, 255, 0.35);
+    outline:none;
+    border-radius:25px;
+    font-size:16px;
+    color:#fff;
+    padding: 15px 20px;
+    margin-bottom: 18px;
+
+}
+
+.register-card form input::placeholder
+{
+    color:#fff;
+}
+
+.register-card form button
+{
+    width:100%;
+    height:45px;
+    background:#fff;
+    border:none;
+    outline:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+    color:#333;
+
+    margin-top:5px;
+    font-weight:600;
+    
+}
+
+.register-card form button:hover
+{
+    background:rgba(255, 255, 255, 0.35);
+}
+
+.login-text
+{
+    margin-top:20px !important;
+    margin-bottom:0px !important;
+}
+
+.login-text a
+{
+    
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+   
+
+}
+.login-text a:hover
+{
+    text-decoration:underline;
+}
+
+
+.register-card form input:focus 
+{
+    background : rgba(255, 255, 255, 0.35);
+    color:#fff;
+    outline :none;
+    border-color:#fff;
+    box-shadow:0 0 5px rgba(255, 255, 255, 0.35);
+    transition :0.3s ease;
+}
