@@ -1,0 +1,27 @@
+
+footer
+{
+    width:100%;
+    background :transparent;
+    color :#fff;
+    text-align :center;
+    padding: 10px 20px 8px;
+    border-top :1px solid rgba(253, 253, 253, 0.2);
+}
+
+footer p
+{
+    margin :0;
+    line-height : 16px;
+    font-size:13px;
+    
+}
+
+footer p
+{
+    margin :0;
+    font-size:13px;
+    line-height: 16px;
+
+    
+}
