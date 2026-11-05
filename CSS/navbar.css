@@ -1,0 +1,64 @@
+header
+{
+    width:100%;
+    background:rgba(255, 255, 255, 0.08);
+    backdrop-filter :blur(15px);
+    border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+    padding :18px 7%;
+    border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+   
+}
+
+nav
+{
+    display :flex;
+    align-items :center;
+    justify-content :space-between;
+
+}
+
+.logo
+{
+    display :flex;
+    align-items :center;
+    gap:10px;
+
+}
+
+.logo i
+{
+    font-size :28px;
+    color:#fff;
+}
+
+.logo h2
+{
+    font-size :24px;
+    color:#fff;
+}
+
+nav ul
+{
+    display :flex;
+    align-items :center;
+    gap:30px;
+
+    list-style: none;
+    
+}
+
+nav ul li a
+{
+    font-size:15px;
+    text-decoration :none;
+    color:#fff;
+    
+}
+
+nav ul li a:hover
+{
+    text-decoration :underline;
+}
+
+
+
