@@ -104,12 +104,15 @@ body
 
     margin-top:5px;
     font-weight:600;
+    transition:0.3s;
     
 }
 
 .register-card form button:hover
 {
     background:rgba(255, 255, 255, 0.35);
+    transform:translateY(-3px);
+    color:#333;
 }
 
 .login-text
