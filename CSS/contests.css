@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+
+}
+
+body
+{
+    min-height:100vh;
+    background-image:url("../images/pp.jfif");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+
+
+}
+.contests-page
+{
+    width:90%;
+    max-width:1000px;
+    COLOR:#FFF;
+    margin:50px auto;
+    
+}
+
+.page-head
+{
+   
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+    
+}
+.page-head h1
+{
+    font-size:35px;
+    margin-bottom:10px;
+}
+.page-head p
+{
+    font-size:17px;
+    margin-bottom:10px;
+    color:rgba(255,255,255,0.8);
+
+}
+
+.page-head i
+{
+    font-size:35px;
+   
+}
+
+.contest-list
+{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+    
+}
+.contest-card
+{
+    display:flex;
+    align-items:center;
+    gap:22px;
+    background: transparent;
+    border:1px solid rgba(255, 254, 255, 0.2);
+    backdrop-filter:blur(80px);
+    color:#fff;
+    border-radius:15px;
+    padding:25px 30px;
+    transition:0.3;
+    
+}
+.contest-card:hover
+{
+   
+    transform:translateY(-3px);
+    
+}
+
+.contest-icon
+{
+    font-size:25px;
+    width:50px;
+    height:50px;
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    border-radius:50%;
+    border:2px solid rgba(255, 255, 255, 0.3);
+    background:rgba(255, 255, 255, 0.1);
+
+}
+.contest-info 
+{
+    flex:1;
+}
+
+.platform 
+{
+   display:inline-block;
+   font-size:15px;
+   color:rgba(255,255,255,0.85);
+   margin-bottom:7px;
+
+    
+}
+
+.contest-info p
+{
+    font-size:15px;
+    color:rgba(255,255,255,0.8);
+    margin-top:7px;
+
+}
+.contest-info h2
+{
+    font-size:20px;
+    color:rgba(255,255,255,0.8);
+    margin-bottom:7px;
+
+    
+}
+
+.contest-info p i
+{
+    margin-right:7px;
+
+}
+.contest-card button:hover
+{
+    
+    transform:translateY(-3px);
+   
+}
+
+.contest-card button
+{
+   
+    background:#fff;
+    border:none;
+    outline:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:15px;
+    color:#333;
+
+    font-weight:600;
+    transition:0.3s;
+    padding:10px 20px;
+ 
+
+}
