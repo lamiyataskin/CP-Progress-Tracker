@@ -73,7 +73,7 @@ body
     color:#fff;
     border-radius:15px;
     padding:25px 30px;
-    transition:0.3;
+    transition:0.3s;
     
 }
 .contest-card:hover
