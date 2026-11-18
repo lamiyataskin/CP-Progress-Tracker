@@ -54,7 +54,7 @@ body
     text-align:center;
 }
 
-.login-card > p
+.login-card p
 {
     text-align:center;
     margin:10px 0 25px;
@@ -170,7 +170,7 @@ body
     margin-bottom:5px !important;
 }
 
-.login-card >a
+.login-card a
 {
     text-align:center;
     color:#fff;
@@ -180,7 +180,7 @@ body
 
 }
 
-.login-card > a:hover
+.login-card a:hover
 {
     
     text-decoration:underline;
