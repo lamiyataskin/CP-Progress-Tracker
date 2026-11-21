@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+
+}
+
+body
+{
+    min-height:100vh;
+    background-image:url("../images/pp.jfif");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+
+
+}
+.about-page
+{
+    width:100%;
+    max-width:1100px;
+    COLOR:#FFF;
+    margin:0 auto;
+    flex:1;
+    padding:35px 25px 50px;
+}
+
+.about-hero 
+{
+    text-align:center;
+    padding:25px 15px 35px;
+
+}
+.about-icon
+{
+    font-size:25px;
+    width:60px;
+    height:60px;
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    border-radius:50%;
+    border:2px solid rgba(255, 255, 255, 0.3);
+    margin: 0 auto 18px;
+
+}
+
+.about-hero h1
+{
+    font-size:32px;
+    margin-bottom :15px;
+
+}
+
+.about-hero p
+{
+    font-size:15px;
+
+}
+.about-card
+{
+    padding:25px 15px;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius:15px;
+    transition:0.3s;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom:25px;
+}
+.about-card:hover
+{
+   
+    transform:translateY(-3px);
+    
+}
+.about-card h2
+{
+    font-size:32px;
+    margin-bottom :15px;
+
+}
+
+.about-card p
+{
+    font-size:15px;
+    line-height: 1.7;
+
+
+}
+.feature
+{
+    padding:22px 15px;
+    background:rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(12px);
+    border-radius:15px;
+    transition:0.3s;
+    border:1px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    vertical-align:top;
+    text-align:center;
+    width:31.5%;
+    min-height:170px;
+    margin:8px 1% 0 0;
+
+}
+.feature:hover
+{
+   
+    transform:translateY(-3px);
+    
+}
+.feature i
+{
+    font-size:30px;
+    margin-bottom:12px;
+   
+}
+.feature h3
+{
+    font-size:20px;
+    margin-bottom:15px;
+   
+}
+.feature p
+{
+    font-size:15px;
+    line-height:1.7;
+  
+}
+
+.perform 
+{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    margin :5px 10px 5px 0;
+    padding : 12px 18px;
+    background:rgba(255, 255, 255, 0.1);
+    border:1px solid rgba(255, 255, 255, 0.25);
+    border-radius:20px;
+
+    transition: 0.3s;
+
+
+}
+.perform:hover
+{
+   
+    transform:translateY(-3px);
+    
+}
+
+.perform i
+{
+    font-size:15px;
+  
+}
+
+.perform span
+{
+    font-size:15px;
+  
+}
