@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login - CP Progress Tracker</title>
+   
+    <link rel="stylesheet" href="CSS/leaderboard.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-code"></i>
+                <h2>CP Tracker</h2>
+
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contests.html">Contests</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="lead-page">
+        <div class="lead-head">
+            <i class="fa-solid fa-ranking-star"></i>
+            <h1>Global Leaderboard</h1>
+
+             <p>
+                Explore and compare competitive programmers
+                from different universities.
+            </p>
+
+        </div>
+        <section class="rank-stats">
+            <div class="rank-card">
+                <i class="fa-solid fa-users"></i>
+                <h3>Total Participants</h3>
+                <h2>250
+
+                </h2>
+
+            </div>
+
+            <div class="rank-card">
+                <i class="fa-solid fa-building-columns"></i>
+                 <h3>Universities</h3>
+                <h2>100
+
+                </h2>
+            </div>
+             <div class="rank-card">
+                <i class="fa-solid fa-trophy"></i>
+                <h3>Top Ratings</h3>
+                <h2>1777
+
+                </h2>
+
+            </div>
+
+        </section>
+
+        <section class="lead-card">
+            <div class="lead-title">
+                <h2>
+                    University Ranking
+                </h2>
+                <p>
+                    Search and select a university to view its ranking.
+                </p>
+            </div>
+
+            <div class="filter">
+                <label for="uni-search">
+                    <i class="fa-solid fa-university"></i>
+                    Select University
+                </label>
+                <input type="text" id="uni-search" placeholder="Search university name" autocomplete="off">
+                <div class="uni-list" id="uni-list">
+                    <div class="uni-option" data-value="all">
+                        All Universities
+                    </div>
+                    <div class="uni-option" data-value="siu">
+                        Sylhet International University
+                    </div>
+                    <div class="uni-option" data-value="lu">
+                        Leading University
+                    </div>
+                    <div class="uni-option" data-value="sust">
+                        Shahjalal University of Science and Technology
+                    </div>
+                </div>
+                <p class="select-uni" id="select-uni">
+                    Selected: All Universities
+                </p>
+
+                </div>
+                <div class="table-wrapper">
+                <table>
+                    <thread>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Programmer</th>
+                            <th>University</th>
+                            <th>Codeforces</th>
+                            <th>AtCoder</th>
+                            <th>CodeChef</th>
+                            <th>Overall Rating</th>
+                        </tr>
+
+                    
+                    </thread>
+
+                    <tbody id="lead-data">
+                        <tr data-uni="siu">
+                            <tr data-university="siu">
+                                <td class="rank">1</td>
+                                <td>
+                                    <i class="fa-solid fa-user">
+
+                                    </i>
+                                    userA
+                                </td>
+
+                                <td>SIU</td>
+                                <td>1500</td>
+                                <td>1200</td>
+                                <td>1600</td>
+                                <td class="overall">
+                                    1450
+                                </td>
+                                <tr data-university="lu">
+                                <td class="rank">2</td>
+                                <td>
+                                    <i class="fa-solid fa-user">
+
+                                    </i>
+                                    userB
+                                </td>
+
+                                <td>LU</td>
+                                <td>1500</td>
+                                <td>1200</td>
+                                <td>1600</td>
+                                <td class="overall">
+                                    1450
+                                </td>
+                            </tr>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="no-result" id="no-result">
+                    No programmers found for this university.
+                </p>
+
+            </div>
+        </section>
+
+        
+        
+    </main>
+
+    <footer>
+        <p>© 2026 CP Progress Tracker. All Rights Reserved.</p>
+
+    </footer>
+</body>
+
+</html>
